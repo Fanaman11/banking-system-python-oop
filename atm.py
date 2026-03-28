@@ -11,7 +11,7 @@ while True:
         print("Your balance is:",balance)
     elif choice =="2":
         amount= float(input("Enter amount to deposit: "))
-        balance += deposit
+        balance += amount
         print ("Deposited:", amount)
     elif choice == "3":
         amount=float(input("Enter amount to withdraw:"))
